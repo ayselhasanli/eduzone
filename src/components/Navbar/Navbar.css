@@ -1,0 +1,35 @@
+nav {
+  width: 100%;
+  background-color: var(--nav-bg-color);
+  color: var(--white-text);
+  padding: 0.4rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .container .logo {
+  width: 18rem;
+}
+
+nav .container .nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav .container .nav-menu li .btn {
+  font-size: 1.6rem;
+  color: var(--nav-bg-color);
+  background-color: var(--body-bg-color);
+  padding: 1.4rem 2.5rem;
+  border-radius: 3rem;
+  border: 0;
+}
