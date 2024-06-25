@@ -1,0 +1,47 @@
+.programs {
+  margin: 8rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.programs .program {
+  flex-basis: 31%;
+  position: relative;
+}
+
+.programs .program img {
+  border-radius: 1rem;
+  display: block;
+}
+
+.programs .program:hover .img-overlay {
+  opacity: 1;
+  visibility: visible;
+  padding-top: 0;
+}
+
+.programs .program .img-overlay {
+  opacity: 0;
+  padding-top: 70%;
+  visibility: hidden;
+  border-radius: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 15, 152, 0.3);
+  color: var(--white-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.programs .program .img-overlay i {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
