@@ -46,9 +46,15 @@ button {
   --white-text: #fff;
   --body-bg-color: #f5f5f5;
   --black-text: #000;
-  --title-color: #212EA0;
+  --title-color: #212ea0;
   --play-icon-color: rgba(70, 70, 193, 0.7);
-  --subtitle-color: #000F38;
+  --subtitle-color: #000f38;
   --gray-text: #676767;
-  --dark-nav-bg: #212EA0;
+  --dark-nav-bg: #212ea0;
+}
+
+.btn.dark-btn {
+  background-color: var(--dark-nav-bg);
+  color: var(--white-text);
+  gap: 1rem;
 }
