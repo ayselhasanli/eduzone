@@ -35,3 +35,8 @@ nav .container .nav-menu {
   align-items: center;
   justify-content: center;
 }
+
+.dark-nav {
+  background-color: var(--dark-nav-bg);
+  transition: 0.5s;
+}

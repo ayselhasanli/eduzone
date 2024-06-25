@@ -47,5 +47,8 @@ button {
   --body-bg-color: #f5f5f5;
   --black-text: #000;
   --title-color: #212EA0;
+  --play-icon-color: rgba(70, 70, 193, 0.7);
   --subtitle-color: #000F38;
+  --gray-text: #676767;
+  --dark-nav-bg: #212EA0;
 }

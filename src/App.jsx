@@ -1,3 +1,4 @@
+import About from "./components/About/About";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Programs from "./components/Programs/Programs";
@@ -8,8 +9,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Title subTitle = 'Our program'  title='What We Offer' />
+      <Title subTitle="Our program" title="What We Offer" />
       <Programs />
+      <About />
     </>
   );
 }
