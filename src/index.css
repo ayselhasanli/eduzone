@@ -52,6 +52,8 @@ button {
   --gray-text: #676767;
   --dark-nav-bg: #212ea0;
   --gray-bg: #676767;
+  --msg-icon: #f0b04b;
+  --input-bg-color: #EBECFE;
 }
 
 .btn.dark-btn {

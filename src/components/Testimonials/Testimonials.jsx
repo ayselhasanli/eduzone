@@ -7,8 +7,6 @@ import user_4 from "../../assets/media/user-4.png";
 
 const Testimonials = () => {
   const slider = useRef();
-  const nextBtn = useRef();
-  const prevBtn = useRef();
 
   let [translateX, setTranslateX] = useState(0);
 
