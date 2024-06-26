@@ -51,6 +51,7 @@ button {
   --subtitle-color: #000f38;
   --gray-text: #676767;
   --dark-nav-bg: #212ea0;
+  --gray-bg: #676767;
 }
 
 .btn.dark-btn {
