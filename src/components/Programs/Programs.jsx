@@ -6,7 +6,7 @@ import program_3 from "../../assets/media/program-3.png";
 
 const Programs = () => {
   return (
-    <section className="programs container">
+    <section className="programs container" id="program">
       <div className="program">
         <img src={program_1} alt="" />
         <div className="img-overlay">

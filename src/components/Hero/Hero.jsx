@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Hero.css"
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -11,9 +12,15 @@ const Hero = () => {
           knowledge, skills, and experiences needed to excel in the dynamic
           field of education.
         </p>
-        <button className="btn">
+        <Link
+          to="program"
+          smooth={true}
+          offset={-260}
+          duration={500}
+          className="btn"
+        >
           Explore more <i className="fa-solid fa-caret-right"></i>
-        </button>
+        </Link>
       </div>
     </section>
   );
