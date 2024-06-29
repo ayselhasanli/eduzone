@@ -1,6 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import nav_logo from "../../assets/media/logo.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -27,36 +26,62 @@ const Navbar = () => {
           duration={500}
           className="logo"
         >
-          <img src={nav_logo} alt="" />
+          <i class="fa-solid fa-book-open"></i> EduZone
         </Link>
 
-        <ul
-          className={`nav-menu ${
-            mobileMenu ? "" : "show-mobile-menu"
-          }`}
-        >
+        <ul className={`nav-menu ${mobileMenu ? "" : "show-mobile-menu"}`}>
           <li>
-            <Link to="hero" smooth={true} offset={0} duration={500}>
+            <Link
+              className="nav-link"
+              to="hero"
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="program" smooth={true} offset={-260} duration={500}>
+            <Link
+              className="nav-link"
+              to="program"
+              smooth={true}
+              offset={-260}
+              duration={500}
+            >
               Program
             </Link>
           </li>
           <li>
-            <Link to="about" smooth={true} offset={-150} duration={500}>
+            <Link
+              className="nav-link"
+              to="about"
+              smooth={true}
+              offset={-150}
+              duration={500}
+            >
               About us
             </Link>
           </li>
           <li>
-            <Link to="campus" smooth={true} offset={-260} duration={500}>
+            <Link
+              className="nav-link"
+              to="campus"
+              smooth={true}
+              offset={-260}
+              duration={500}
+            >
               Campus
             </Link>
           </li>
           <li>
-            <Link to="testimonials" smooth={true} offset={-260} duration={500}>
+            <Link
+              className="nav-link"
+              to="testimonials"
+              smooth={true}
+              offset={-260}
+              duration={500}
+            >
               Testimonials
             </Link>
           </li>

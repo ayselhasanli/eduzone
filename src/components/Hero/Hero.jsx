@@ -17,9 +17,9 @@ const Hero = () => {
           smooth={true}
           offset={-260}
           duration={500}
-          className="btn"
+          className="btn btn-effect"
         >
-          Explore more <i className="fa-solid fa-caret-right"></i>
+          Explore more 
         </Link>
       </div>
     </section>

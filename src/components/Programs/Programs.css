@@ -31,7 +31,7 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 15, 152, 0.3);
+  background: var(--overlay);
   color: var(--white-text);
   display: flex;
   align-items: center;

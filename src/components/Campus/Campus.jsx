@@ -14,8 +14,10 @@ const Campus = () => {
         <img src={gallery_3} alt="" />
         <img src={gallery_4} alt="" />
       </div>
-      <button className="btn dark-btn">
-        See more here <i className="fa-solid fa-caret-right"></i>
+      <button
+        className="btn dark-btn btn-effect"
+      >
+        See more here
       </button>
     </section>
   );

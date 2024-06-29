@@ -30,7 +30,7 @@ const Contact = () => {
     <section className="contact container">
       <div className="contact-col">
         <h3>
-          Send us a message <i class="fa-regular fa-paper-plane"></i>
+          Send us a message <i className="fa-solid fa-paper-plane"></i>
         </h3>
 
         <p>
@@ -73,8 +73,8 @@ const Contact = () => {
             rows="6"
             placeholder="Enter your message"
           ></textarea>
-          <button type="submit" className="btn dark-btn">
-            Submit now <i className="fa-solid fa-caret-right"></i>
+          <button type="submit" className="btn dark-btn btn-effect">
+            Submit now 
           </button>
         </form>
         <span>{result}</span>
