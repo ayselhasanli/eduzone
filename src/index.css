@@ -54,6 +54,7 @@ button {
   --gray-bg: #676767;
   --msg-icon: #f0b04b;
   --input-bg-color: #ebecfe;
+  --video-bg: rgba(0,0,0,0.5);
 }
 
 .btn.dark-btn {

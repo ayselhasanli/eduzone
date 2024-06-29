@@ -2,14 +2,14 @@ import React from "react";
 import "./About.css";
 import about_img from "../../assets/media/about.png";
 
-const About = () => {
+const About = ({setPlayState}) => {
   return (
     <section className="about container">
       <div className="about-left">
         <img src={about_img} alt="" className="about-img" />
-        <div className="about-icon">
+        <button className="about-icon" onClick={() => {setPlayState(true)}}>
           <i className="fa-solid fa-circle-play"></i>
-        </div>
+        </button>
       </div>
       <div className="about-right">
         <h3>ABOUT UNIVERSITY</h3>
