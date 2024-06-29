@@ -53,11 +53,22 @@ button {
   --dark-nav-bg: #212ea0;
   --gray-bg: #676767;
   --msg-icon: #f0b04b;
-  --input-bg-color: #EBECFE;
+  --input-bg-color: #ebecfe;
 }
 
 .btn.dark-btn {
   background-color: var(--dark-nav-bg);
   color: var(--white-text);
   gap: 1rem;
+}
+
+/*Media queries*/
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0 5%;
+  }
+
+  .btn {
+    padding: 1rem 2rem;
+  }
 }

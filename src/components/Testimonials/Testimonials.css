@@ -32,7 +32,6 @@
   width: 200%;
   overflow-x: hidden;
   transition: 0.5s;
-  /* transform: translateX(-25%); */
 }
 
 .testimonials .slider ul li {
@@ -46,6 +45,7 @@
   border-radius: 1rem;
   color: var(--gray-text);
   line-height: 1.4;
+  height: 100% !important;
 }
 
 .testimonials .slider ul li .slide .user-info {
@@ -65,3 +65,48 @@
 .testimonials .slider ul li .slide .user-info h3 {
   color: var(--dark-nav-bg);
 }
+
+/*Media queries*/
+@media screen and (max-width: 800px) {
+  .testimonials {
+    margin: 4rem 0;
+  }
+
+  .container {
+    padding: 0 13% !important;
+  }
+
+  .testimonials .slider ul li {
+    padding: 1rem;
+  }
+
+  .testimonials .slider ul li .slide {
+    padding: 1rem;
+  }
+
+  .testimonials .slider ul li .slide .user-info img {
+    width: 5rem;
+    border: 0.3rem solid var(--dark-nav-bg);
+  }
+
+  .testimonials .next-btn,
+  .testimonials .prev-btn {
+    padding: 0.9rem 1.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .testimonials .slider ul li .slide p {
+    font-size: 1.3rem;
+  }
+  .testimonials .slider ul li .slide .user-info {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  .testimonials .slider ul li .slide .user-info h3 {
+    font-size: 1.6rem;
+  }
+}
+

@@ -57,3 +57,14 @@
   display: block;
   margin: 2rem 0;
 }
+
+@media screen and (max-width: 800px) {
+  .contact {
+    display: block;
+    margin: 4rem 0;
+  }
+
+  .contact .contact-col {
+    padding: 2rem;
+  }
+}

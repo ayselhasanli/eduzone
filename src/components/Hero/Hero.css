@@ -34,3 +34,22 @@
 .hero .hero-text .btn i {
   font-size: 1.4rem;
 }
+
+/*Media queries*/
+
+@media screen and (max-width: 768px) {
+  .hero .hero-text h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .hero .hero-text p {
+    font-size: 1.4rem;
+    margin: 1.5rem auto 3rem;
+  }
+}

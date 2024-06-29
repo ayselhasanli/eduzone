@@ -22,7 +22,7 @@ function App() {
       <Testimonials />
       <Title subTitle="Contact Us" title="Get in touch" />
       <Contact />
-      <Footer />
+      <Footer /> 
     </>
   );
 }

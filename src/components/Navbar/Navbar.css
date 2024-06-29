@@ -40,3 +40,53 @@ nav .container .nav-menu {
   background-color: var(--dark-nav-bg);
   transition: 0.5s;
 }
+
+nav .container .menu-icon {
+  display: none;
+}
+
+/*Media queries*/
+@media screen and (max-width: 1000px) {
+  nav .container .logo {
+    width: 14rem;
+  }
+
+  nav .container .nav-menu {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    padding: 1.5rem 0;
+  }
+
+  nav .container .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -23rem;
+    bottom: 0;
+    background-color: var(--dark-nav-bg);
+    z-index: -1;
+    width: 23rem;
+    padding-top: 4rem;
+    transition: 0.5s;
+    display: block;
+  }
+
+  nav .container .nav-menu li {
+    margin: 2.5rem 4rem;
+    display: block;
+  }
+
+  nav .container .menu-icon {
+    display: block;
+    cursor: pointer;
+    color: var(--white-text);
+    font-size: 1.8rem;
+  }
+
+  .show-mobile-menu {
+    right: 0 !important;
+  }
+}

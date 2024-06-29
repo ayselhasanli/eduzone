@@ -45,3 +45,22 @@
 .about .about-right p {
   color: var(--gray-text);
   margin-bottom: 1.5rem;
+}
+
+/*Media queries*/
+@media screen and (max-width: 800px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about .about-left {
+    flex-basis: 100%;
+    margin: 2rem;
+    order: 2;
+  }
+
+  .about .about-right {
+    flex-basis: 100%;
+    margin: 1rem;
+  }
+}

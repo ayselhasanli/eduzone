@@ -45,3 +45,16 @@
   font-size: 5rem;
   margin-bottom: 1rem;
 }
+
+/*Media queries*/
+
+@media screen and (max-width: 650px) {
+  .programs {
+    flex-direction: column;
+  }
+
+  .programs .program {
+  flex-basis: 100%;
+  margin: 2rem;
+}
+}
