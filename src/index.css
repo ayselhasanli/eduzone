@@ -74,7 +74,7 @@ button {
   opacity: 0;
   right: 0;
   transition: 0.5s;
-  top: 1.1rem;
+  top: 1.05rem;
   font-size: 1.4em;
 }
 
@@ -95,5 +95,11 @@ button {
 
   .btn {
     padding: 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .btn.btn-effect:after {
+    top: 0.6rem;
   }
 }
